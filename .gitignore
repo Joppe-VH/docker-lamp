@@ -1,2 +1,8 @@
 /db
 .DS_Store
+env.php
+
+# ignore uploaded files
+**/uploads/*
+# except this file to ensure the folder exists in version control
+!**/uploads/.upload
