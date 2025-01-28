@@ -29,8 +29,8 @@ if (isset($_POST['formSubmit'])) {
         else {
             // redirect so that page reloads don't re-trigger a successful upload
             // disabled because env file already writes headers which breaks this.
-            header('Location: index.php');
-            exit;
+            // header('Location: index.php');
+            // exit;
         }
     }
 }
